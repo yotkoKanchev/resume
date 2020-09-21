@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+
+  a{
+      text-decoration: none;
+      font: inherit;
+      color: inherit;
+  }
+  
+  body {
+    min-height: 100%;
+    background: #eee;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #222;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    background: #fff;
+    margin: 0px auto 0px;
+    box-shadow: 1px 1px 2px #dad7d7;
+    border-radius: 3px;
+    padding: 40px;
+    margin-top: 50px;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  .header .full-name {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .header .first-name {
+    font-weight: 300;
+  }
+  .header .last-name {
+    font-weight: 700;
+  }
+  .header .position {
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .header .contact-info {
+    margin-bottom: 5px;
+  }
+  .header .email,
+  .header .phone,
+  .header .linkedIn,
+  .header .github,
+  .details .web,
+  .header .location,
+  .header .web {
+    color: #54afe4;
+    font-weight: 300;
+  }
+  .header .separator,
+  .section .separator {
+    height: 10px;
+    display: inline-block;
+    border-left: 2px solid #999;
+    margin: 0px 10px;
+  }
+  .header .position {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+  }
+
+  .header .avatar{
+      max-width: 10rem;
+      height: auto;
+      border-radius: 50%;
+      position: absolute;
+      top: 20px;
+      right: 50px;    
+  }
+  
+  .details {
+    line-height: 20px;
+  }
+  .details .section {
+    margin: 10px 0 15px 0;
+  }
+  .details .section:last-of-type {
+    margin-bottom: 0px;
+  }
+  .details .section__title {
+    letter-spacing: 2px;
+    color: #54afe4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .details .section__list-item {
+    margin-bottom: 10px;
+  }
+  .details .section__list-item:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .details .section .courses {
+      font-size: 11px;
+  }
+
+  .details .left,
+  .details .right {
+    vertical-align: top;
+    display: inline-block;
+  }
+  .details .left {
+    width: 60%;
+  }
+  .details .right {
+    text-align: right;
+    width: 39%;
+  }
+  .details .name {
+    font-weight: bold;
+  }
+ 
+  i{
+      margin-right: 5px;
+  }
