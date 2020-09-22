@@ -22,7 +22,6 @@
     color: #222;
     font-size: 14px;
     line-height: 26px;
-    padding-bottom: 20px;
 }
 
 .container {
@@ -33,7 +32,6 @@
     box-shadow: 1px 1px 2px #dad7d7;
     border-radius: 3px;
     padding: 40px;
-    margin-top: 50px;
   }
   
   .header {
@@ -72,7 +70,7 @@
     height: 10px;
     display: inline-block;
     border-left: 2px solid #999;
-    margin: 0px 10px;
+    margin: 0px 0.5rem;
   }
   .header .position {
     font-weight: bold;
@@ -114,7 +112,7 @@
   }
 
   .details .section .courses {
-      font-size: 11px;
+      font-size: 13px;
   }
 
   .details .left,
@@ -136,3 +134,42 @@
   i{
       margin-right: 5px;
   }
+
+  .skills, .courses, .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 900px) {
+    .header .avatar{
+      max-width: 9rem;
+      position: absolute;
+      top: 30px;
+      right: 40px;    
+  }
+}
+
+  @media (max-width: 600px) {
+    .header .avatar{
+      max-width: 6rem;
+      position: absolute;
+      top: 15px;
+      right: 20px;    
+  }
+
+  .header .full-name {
+    font-size: 25px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .details .web-val{
+    font-size: 12px;
+  }
+
+  .header .block {
+    display: block;
+  }
+}
