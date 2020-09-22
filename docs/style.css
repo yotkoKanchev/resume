@@ -149,7 +149,7 @@
   }
 }
 
-  @media (max-width: 600px) {
+  @media (max-width: 700px) {
     .header .avatar{
       max-width: 6rem;
       position: absolute;
