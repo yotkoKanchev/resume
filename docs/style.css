@@ -140,7 +140,7 @@
     flex-wrap: wrap;
   }
 
-  @media (max-width: 900px) {
+@media (max-width: 900px) {
     .header .avatar{
       max-width: 9rem;
       position: absolute;
@@ -162,7 +162,9 @@
   }
 
   .container {
+    margin: 0px auto 0px;
     padding: 20px;
+    margin-top: 30px;
   }
 
   .details .web-val{
@@ -172,4 +174,3 @@
   .header .block {
     display: block;
   }
-}
