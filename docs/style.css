@@ -112,7 +112,7 @@
   }
 
   .details .section .courses {
-      font-size: 13px;
+      font-size: 14px;
   }
 
   .details .left,
@@ -157,6 +157,10 @@
       top: 30px;
       right: 40px;    
   }
+
+  .details .section .courses {
+    font-size: 13px;
+}
 }
 
   @media (max-width: 600px) {
@@ -178,6 +182,10 @@
   .details .web-val{
     font-size: 12px;
   }
+
+  .details .section .courses {
+    font-size: 11px;
+}
 
   .header .block {
     display: block;
