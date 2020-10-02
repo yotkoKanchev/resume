@@ -4,190 +4,206 @@
     box-sizing: border-box;
   }
   
-  html {
-    height: 100%;
-  }
+html {
+  height: 100%;
+}
 
-  a{
-      text-decoration: none;
-      font: inherit;
-      color: inherit;
-  }
+a{
+    text-decoration: none;
+    font: inherit;
+    color: inherit;
+}
   
-  body {
-    min-height: 100%;
-    background: #eee;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    color: #222;
-    font-size: 14px;
-    line-height: 26px;
+body {
+  min-height: 100%;
+  background: #eee;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 14px;
+  line-height: 26px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .container {
-    position: relative;
-    max-width: 800px;
-    background: #fff;
-    margin: 0px auto 0px;
-    box-shadow: 1px 1px 2px #dad7d7;
-    border-radius: 3px;
-    padding: 40px;
-  }
-  
-  .header {
-    margin-bottom: 20px;
-  }
-  .header .full-name {
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-  }
-  .header .first-name {
-    font-weight: 300;
-  }
-  .header .last-name {
-    font-weight: 700;
-  }
-  .header .position {
-    font-weight: 300;
-    font-size: 12px;
-  }
-  .header .contact-info {
-    margin-bottom: 5px;
-  }
-  .header .email,
-  .header .phone,
-  .header .linkedIn,
-  .header .github,
-  .details .web,
-  .header .location,
-  .header .web {
-    color: #54afe4;
-    font-weight: 300;
-  }
-  .header .separator,
-  .section .separator {
-    height: 10px;
-    display: inline-block;
-    border-left: 2px solid #999;
-    margin: 0px 0.5rem;
-  }
-  .header .position {
-    font-weight: bold;
-    display: inline-block;
-    margin-right: 10px;
-    text-decoration: underline;
-  }
+  max-width: 800px;
+  background: #fff;
+  margin: 0px auto 0px;
+  box-shadow: 1px 1px 2px #dad7d7;
+  border-radius: 3px;
+  padding: 40px;
+}
 
+.header {
+  position: relative;
+  margin-bottom: 20px;
+  padding : 0.5rem;
+  background: rgb(237, 237, 237);
+}
+
+.header .full-name {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.header .first-name {
+  font-weight: 300;
+}
+
+.header .last-name {
+  font-weight: 700;
+}
+
+.header .position {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.header .contact-info {
+  margin-bottom: 5px;
+}
+
+.header .email,
+.header .phone,
+.header .linkedIn,
+.header .github,
+.details .web,
+.header .location,
+.header .web {
+  color: #54afe4;
+  font-weight: 300;
+}
+
+.header .separator,
+.section .separator {
+  height: 10px;
+  display: inline-block;
+  border-left: 2px solid #999;
+  margin: 0px 0.5rem;
+}
+  
+.header .position {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+.header .avatar{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;    
+}
+  
+.details {
+  line-height: 20px;
+}
+.details .section {
+  margin: 10px 0 15px 0;
+}
+.details .section:last-of-type {
+  margin-bottom: 0px;
+}
+.details .section__title {
+  letter-spacing: 2px;
+  color: #54afe4;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.details .section__list-item {
+  margin-bottom: 10px;
+}
+
+.details .section__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.details .section .courses {
+    font-size: 14px;
+}
+
+.details .left,
+.details .right {
+  vertical-align: top;
+  display: inline-block;
+}
+.details .left {
+  width: 60%;
+}
+.details .right {
+  text-align: right;
+  width: 39%;
+}
+
+.details .name {
+  font-weight: bold;
+}
+
+i{
+    margin-right: 5px;
+}
+
+.italic {
+  font-style: italic;
+  margin-top: 5px;
+  font-size: 1.1rem;
+}
+.fa-code {
+  margin-right: 3px;
+}
+.skills, .courses, .contact-info, .languages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
   .header .avatar{
-      max-width: 10rem;
-      height: auto;
-      border-radius: 50%;
-      position: absolute;
-      top: 20px;
-      right: 50px;    
-  }
-  
-  .details {
-    line-height: 20px;
-  }
-  .details .section {
-    margin: 10px 0 15px 0;
-  }
-  .details .section:last-of-type {
-    margin-bottom: 0px;
-  }
-  .details .section__title {
-    letter-spacing: 2px;
-    color: #54afe4;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-  }
-  .details .section__list-item {
-    margin-bottom: 10px;
-  }
-  .details .section__list-item:last-of-type {
-    margin-bottom: 0;
-  }
-
-  .details .section .courses {
-      font-size: 14px;
-  }
-
-  .details .left,
-  .details .right {
-    vertical-align: top;
-    display: inline-block;
-  }
-  .details .left {
-    width: 60%;
-  }
-  .details .right {
-    text-align: right;
-    width: 39%;
-  }
-  .details .name {
-    font-weight: bold;
-  }
- 
-  i{
-      margin-right: 5px;
-  }
-
-  .italic {
-    font-style: italic;
-    margin-top: 5px;
-    font-size: 1.1rem;
-  }
-
-  .fa-code {
-    margin-right: 3px;
-  }
-
-  .skills, .courses, .contact-info, .languages {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  @media (max-width: 900px) {
-    .header .avatar{
-      max-width: 9rem;
-      position: absolute;
-      top: 30px;
-      right: 40px;    
+    width: 7rem;
+    height: 7rem;
   }
 
   .details .section .courses {
     font-size: 13px;
-}
+  }
 }
 
-  @media (max-width: 600px) {
-    .header .avatar{
-      max-width: 6rem;
-      position: absolute;
-      top: 15px;
-      right: 16px;    
+@media (max-width: 700px) {
+  .header .avatar{
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header .avatar {
+    width: 5.5rem;
+    height: 5.5rem;
   }
 
   .header .full-name {
-    font-size: 25px;
+  font-size: 25px;
   }
 
   .container {
-    padding: 20px;
+  padding: 20px;
   }
 
-  .details .web-val{
-    font-size: 12px;
+  .details .web-val {
+  font-size: 12px;
   }
 
   .details .section .courses {
-    font-size: 11px;
-}
+  font-size: 11px;
+  }
 
   .header .block {
-    display: block;
+  display: block;
   }
 }
