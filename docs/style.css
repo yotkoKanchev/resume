@@ -8,10 +8,18 @@ html {
   height: 100%;
 }
 
+i{
+  margin-right: 5px;
+}
+
 a{
     text-decoration: none;
     font: inherit;
     color: inherit;
+}
+
+a:hover{
+  color: #54afe4;
 }
   
 body {
@@ -34,7 +42,7 @@ body {
   border-radius: 3px;
   padding: 40px;
 }
-
+  
 .header {
   position: relative;
   margin-bottom: 20px;
@@ -100,7 +108,7 @@ body {
     top: 0.5rem;
     right: 0.5rem;    
 }
-  
+
 .details {
   line-height: 20px;
 }
@@ -110,13 +118,14 @@ body {
 .details .section:last-of-type {
   margin-bottom: 0px;
 }
-.details .section__title {
+.section__title {
   letter-spacing: 2px;
   color: #54afe4;
   font-weight: bold;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
+
 .details .section__list-item {
   margin-bottom: 10px;
 }
@@ -146,8 +155,9 @@ body {
   font-weight: bold;
 }
 
-i{
-    margin-right: 5px;
+.large:hover{
+  /* font-weight: 100; */
+  font-size: large;
 }
 
 .italic {
