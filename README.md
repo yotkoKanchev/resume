@@ -1,3 +1,3 @@
 # Resume
 
-https://yotkokanchev.github.io/Resume/
+https://yotkokanchev.github.io/resume/
