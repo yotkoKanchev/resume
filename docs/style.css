@@ -18,7 +18,7 @@ a{
     color: inherit;
 }
 
-a:hover{
+a:hover, i{
   color: #54afe4;
 }
   
@@ -79,7 +79,8 @@ body {
 .header .github,
 .details .web,
 .header .location,
-.header .web {
+.header .web
+{
   color: #54afe4;
   font-weight: 300;
 }
@@ -112,12 +113,15 @@ body {
 .details {
   line-height: 20px;
 }
+
 .details .section {
   margin: 10px 0 15px 0;
 }
+
 .details .section:last-of-type {
   margin-bottom: 0px;
 }
+
 .section__title {
   letter-spacing: 2px;
   color: #54afe4;
@@ -143,9 +147,11 @@ body {
   vertical-align: top;
   display: inline-block;
 }
+
 .details .left {
   width: 60%;
 }
+
 .details .right {
   text-align: right;
   width: 39%;
@@ -156,7 +162,6 @@ body {
 }
 
 .large:hover{
-  /* font-weight: 100; */
   font-size: large;
 }
 
@@ -165,9 +170,11 @@ body {
   margin-top: 5px;
   font-size: 1.1rem;
 }
+
 .fa-code {
   margin-right: 3px;
 }
+
 .skills, .courses, .contact-info, .languages {
   display: flex;
   flex-wrap: wrap;
